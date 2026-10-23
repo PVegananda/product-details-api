@@ -3,7 +3,7 @@
 
   # Product Details API
 
-  A lightweight REST API for serving product information with Flask.
+  A production-ready Flask REST API for fast, reliable product catalog data.
 
   <p>
     <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.11+"></a>
@@ -57,8 +57,8 @@ Requests for an unknown product return `404 Not Found`.
 ### Setup
 
 ```bash
-git clone https://github.com/PVegananda/product-details-service.git
-cd product-details-service
+git clone https://github.com/PVegananda/product-details-api.git
+cd product-details-api
 
 python -m venv .venv
 source .venv/bin/activate
